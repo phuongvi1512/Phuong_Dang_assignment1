@@ -10,7 +10,7 @@ header {
 
 header ul, li {
     display: flex;
-    padding-right: 5px;
+    padding: 5px;
 }
 
 
@@ -26,4 +26,8 @@ header a:visited {
 
 header a:hover {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
 }
