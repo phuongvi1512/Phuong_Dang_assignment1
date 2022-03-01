@@ -2,6 +2,10 @@ body {
     background-color: #f2e9e1;
 }
 
+header, ul, li, p, div {
+    color: #31748f;
+}
+
 header {
     display: flex;
     justify-content: flex-end;
