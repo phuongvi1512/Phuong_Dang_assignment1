@@ -24,11 +24,11 @@ ul, a {
 }
 
 
-header a:visited {
+nav a:visited {
     color: #eb6f92;
 }
 
-header a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -38,9 +38,10 @@ footer {
 
 .styled {
     display: flex;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
     text-align: top;
+    border: none;
+    background-color:#f2e9e1;
+    margin: 5px;
 }
+
 
