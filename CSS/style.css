@@ -32,8 +32,11 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
-    text-align: center;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
 }
 
 .styled {
