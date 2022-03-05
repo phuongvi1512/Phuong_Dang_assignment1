@@ -24,11 +24,11 @@ ul, a {
 }
 
 
-nav a:visited {
+a:visited {
     color: #eb6f92;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -44,4 +44,18 @@ footer {
     margin: 5px;
 }
 
+label, textarea {
+    letter-spacing: 1px;
+}
 
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+}
