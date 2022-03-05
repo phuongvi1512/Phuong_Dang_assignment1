@@ -2,17 +2,17 @@ body {
     background-color: #f2e9e1;
 }
 
-header, ul, li, p, div {
+header, nav, ul, li, p, div {
     color: #31748f;
 }
 
-header {
+nav {
     display: flex;
     justify-content: flex-end;
     flex-flow: wrap;
 }
 
-header ul, li {
+nav ul, li {
     display: flex;
     padding: 5px;
 }
@@ -43,3 +43,4 @@ footer {
     padding: 0 20px;
     text-align: top;
 }
+
