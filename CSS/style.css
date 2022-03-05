@@ -46,23 +46,23 @@ footer {
 
 label, textarea {
     letter-spacing: 1px;
-    text-align: left;
+}
+.text-box {
+    display: flex;
+    justify-content: center;
 }
 
 textarea {
-    padding: 10px;
+    display: flex;
     max-width: 100%;
     border: none;
     background-color: #fffaf3;
 }
 
 label {
-    display:block;
-    margin-bottom: 10px;
+    display: flex;
 }
 
-label li {
+label ul,li {
     display: inline-block;
-    text-align: right;
-    top: 0;
 }
