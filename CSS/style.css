@@ -1,3 +1,4 @@
+/*for both 2 html pages*/
 body {
     background-color: #f2e9e1;
 }
@@ -45,7 +46,7 @@ footer p {
     justify-content: center;
 }
 
-
+/* create button */
 .styled {
     display: flex;
     position: relative;
@@ -69,17 +70,40 @@ button p {
 button .larger-font {
     font-size: 200%;
 }
-label, textarea {
-    letter-spacing: 1px;
+/* button for save and delete note for textarea */
+.save-delete-button {
+    display: flex;
+    border: none;
+    background-color:#f2e9e1;
 }
+/* create section divide */
+.section-divide {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-divide  ul,li {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    position: relative;
+}
+/* create text-box so the text area is centered */
 .text-box {
     display: flex;
+    width: 100%;
     justify-content: center;
+}
+
+
+
+/* create text area */
+label, textarea {
+    letter-spacing: 1px;
 }
 
 textarea {
     display: flex;
-    max-width: 100%;
     border: none;
     background-color: #fffaf3;
 }
@@ -88,6 +112,5 @@ label {
     display: flex;
 }
 
-label ul,li {
-    display: inline-block;
-}
+
+/* create menu slide bar */
