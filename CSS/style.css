@@ -101,18 +101,12 @@ button .larger-font {
 
 
 /* create text area */
-label, textarea {
-    letter-spacing: 1px;
-}
 
 textarea {
     display: flex;
     border: none;
     background-color: #fffaf3;
-}
-
-label {
-    display: flex;
+    letter-spacing: 1px;
 }
 
 
