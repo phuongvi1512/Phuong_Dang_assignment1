@@ -5,6 +5,7 @@ body {
 
 header, footer, nav, ul, li, p, div, button {
     color: #31748f;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 nav {
@@ -36,7 +37,7 @@ a:hover {
 footer {
     display: flex;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     justify-content: center;
 }
@@ -99,6 +100,7 @@ textarea {
     border: none;
     background-color: #fffaf3;
     letter-spacing: 1px;
+    font-family: monospace;
 }
 
 
