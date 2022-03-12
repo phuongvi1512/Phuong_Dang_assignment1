@@ -3,7 +3,7 @@ body {
     background-color: #f2e9e1;
 }
 
-header, footer, nav, ul, li, p, div {
+header, footer, nav, ul, li, p, div, button {
     color: #31748f;
 }
 
@@ -53,13 +53,13 @@ button {
     background-color: #f2e9e1;
 }
 .styled {
-    position: relative;
-    background-color:#f2e9e1;
-    margin: 5px;
-    left: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .slided-bar {
+    display: flex;
     justify-content: flex-start;
     background-color: #f2e9e1;
 }
@@ -70,15 +70,10 @@ button p {
     margin-right: 5px;
 }
 
-button .larger-font {
+.larger-font {
     font-size: 200%;
 }
-/* button for save and delete note for textarea */
-.save-delete-button {
-    display: flex;
-    border: none;
-    background-color:#f2e9e1;
-}
+
 /* create section divide */
 .section-divide {
     display: flex;
@@ -94,11 +89,8 @@ button .larger-font {
 /* create text-box so the text area is centered */
 .text-box {
     display: flex;
-    width: 100%;
-    justify-content: center;
+    flex-flow: nowrap;
 }
-
-
 
 /* create text area */
 
@@ -110,4 +102,37 @@ textarea {
 }
 
 
-/* create menu slide bar */
+/* create side nav bar */
+.side-bar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    background-color: #fffaf3;
+    margin-top: 0;
+}
+.side-bar button {
+    background-color: #fffaf3;
+    justify-content: end;
+}
+
+.side-bar ul, li {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+
+.side-bar-and-note {
+    align-items: start;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    margin: 48px 0px;
+    max-width: 1170px;
+    width: 100%;
+}
